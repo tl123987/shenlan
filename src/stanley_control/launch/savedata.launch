@@ -1,0 +1,13 @@
+<launch>
+    <!-- 定义参数 -->
+    <arg name="output_mode" default="screen" /> <!-- 输出模式：screen 或 log -->
+    <arg name="node_name" default="ego_waypoint_listener" /> <!-- 节点名称 -->
+    <arg name="script_name" default="shuju.py" /> <!-- 脚本名称 -->
+
+    <!-- 启动 ego_waypoint_listener 节点 -->
+    <node 
+        pkg="stanley_control" 
+        type="$(arg script_name)" 
+        name="$(arg node_name)" 
+        output="$(arg output_mode)" />
+</launch>

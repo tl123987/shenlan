@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/noetic/include/**",
+        "src/ros-bridge/pcl_recorder/include/**",
+        "src/stanley_control/include/**",
+        "src/mpc_control/include/**",
+        "devel/include/**",
+        "src/mpc_control/include/**",
+        "src/path_planning/include/**",
+        "/usr/include/"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
